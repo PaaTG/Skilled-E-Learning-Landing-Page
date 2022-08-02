@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: var(--blue-light);
+  background-color: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 header {
   display: flex;
@@ -251,19 +251,12 @@ header {
     height: 100%;
     margin-top: -60px;
     padding: 56px 32px;
-    
+  
 }
-footer img {
-  margin-left: 6rem;
 }
 
-.btn-footer {
-  margin-right: 8rem;
-}
-
-}
-
-@media (min-width: 1440px) {
+@media(min-width: 1440px ) {
+  
   .wrapper {
     width: 90%;
     margin: auto;
@@ -335,7 +328,6 @@ footer img {
     line-height: 28px;
   }
 footer img {
-  margin-left: 7.9rem;
   height: 45px;
 }
 .btn-footer {
@@ -343,10 +335,13 @@ footer img {
   height: 56px;
   font-size: 16px;
   line-height: 28px;
-  margin-right: 9.5rem;
+}
+.ending {
+  width: 80%;
+  margin: auto;
+}
+}
 
-}
-}
   
 
     
